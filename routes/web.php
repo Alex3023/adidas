@@ -20,8 +20,6 @@ use App\Http\Controllers\DeporteController;
 
 Route::get('/', [CrusoController::class, 'index'])->name('inicio');
 
-Route::get('/inicio', [CrusoController::class, 'index'])->name('inicio');
-
 Route::get('/hombre', [HombreController::class, 'index'])->name('hombre');
 
 Route::get('/mujer', [MujerController::class, 'index'])->name('mujer');
